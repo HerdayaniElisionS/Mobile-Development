@@ -15,8 +15,8 @@ class ToDoItem extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 20),
       padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       decoration: BoxDecoration(
-        color: tdBlck, // Task box background
-        borderRadius: BorderRadius.circular(12), // Rounded corners
+        color: tdBlck, 
+        borderRadius: BorderRadius.circular(12), 
       ),
       child: ListTile(
         onTap: () {
@@ -35,7 +35,7 @@ class ToDoItem extends StatelessWidget {
           todo.todoText!,
           style: TextStyle(
             fontSize: 16,
-            color: tdbeige, // Task text color
+            color: tdbeige, 
             decoration: todo.isDone ? TextDecoration.lineThrough : null,
           ),
         ),
@@ -43,8 +43,8 @@ class ToDoItem extends StatelessWidget {
           height: 40,
           width: 40,
           decoration: BoxDecoration(
-            color: tdRed, // Delete button background
-            borderRadius: BorderRadius.circular(8), // Rounded square
+            color: tdRed, 
+            borderRadius: BorderRadius.circular(8), 
           ),
           child: Center(
             child: IconButton(
