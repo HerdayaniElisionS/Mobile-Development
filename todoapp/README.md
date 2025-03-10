@@ -1,16 +1,4 @@
-# todoapp
+# To-Do App
 
-A new Flutter project.
+This To-Do app is my first mobile development project, as I had no prior experience. I relied on an online bootcamp, YouTube tutorials, Stack Overflow, Google, and ChatGPT to build a strong foundation in Flutter. To start, I followed a YouTube tutorial by Pradib Debnath, which helped me create the base of the app. Along the way, I faced errors, so I researched solutions through Google and ChatGPT, and also  fixing them on my own. After completing the base features, I add the profile feature by making the profile image a navigation button after searching from Stack Overflow. I then created about_me.dart to structure the page.  Once the app was fully functional, I modify the simple UI design into a more make it more appealing because i think that it is easier to make the base first with simple UI design before doing a more detailed UI design. While coding, I quickly learned state management with setState(), navigation with Navigator.push(), and handling user input using TextField. I used ListView.builder() to display tasks and experimented with styling using TextStyle and BoxDecoration. I also have learn how to managed dependencies in pubspec.yaml, and improved my Git & GitHub workflow to organize my project. This hands-on experience strengthened my problem-solving skills, adaptability, and ability to learn quickly. I believe I am a strong candidate for the RISTEK mobile development division because of my dedication to learning and my ability to grasp new concepts quickly.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
