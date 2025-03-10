@@ -9,7 +9,6 @@ class ToDo {
     this.isDone = false,
   });
 
-  // Use a static mutable list so it can be accessed and modified
   static List<ToDo> todoList = [];
 }
 
